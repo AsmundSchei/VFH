@@ -1,0 +1,6045 @@
+{
+	"connections": [
+		{
+			"from": "bricks_uneven_3",
+			"from_port": 1,
+			"to": "fill_to_uv_2",
+			"to_port": 0
+		},
+		{
+			"from": "tones_5",
+			"from_port": 0,
+			"to": "custom_uv_3",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_4",
+			"from_port": 0,
+			"to": "multi_warp_4",
+			"to_port": 1
+		},
+		{
+			"from": "fbm2_5",
+			"from_port": 0,
+			"to": "quantize_3",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_3",
+			"from_port": 0,
+			"to": "multi_warp_4",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp_3",
+			"from_port": 0,
+			"to": "blend2_7",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp_4",
+			"from_port": 0,
+			"to": "blend2_8",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_6",
+			"from_port": 0,
+			"to": "quantize_4",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_4",
+			"from_port": 0,
+			"to": "slope_blur",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_3",
+			"from_port": 0,
+			"to": "slope_blur",
+			"to_port": 1
+		},
+		{
+			"from": "slope_blur",
+			"from_port": 0,
+			"to": "blend2_8",
+			"to_port": 1
+		},
+		{
+			"from": "bricks_uneven_3",
+			"from_port": 1,
+			"to": "fill_to_gradient_3",
+			"to_port": 0
+		},
+		{
+			"from": "box_3",
+			"from_port": 0,
+			"to": "tiler",
+			"to_port": 0
+		},
+		{
+			"from": "tiler",
+			"from_port": 0,
+			"to": "quantize_5",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_5",
+			"from_port": 0,
+			"to": "blend2_10",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_10",
+			"from_port": 0,
+			"to": "gaussian_blur_2",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_8",
+			"from_port": 0,
+			"to": "gaussian_blur",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur",
+			"from_port": 0,
+			"to": "warp_dilation2_2",
+			"to_port": 1
+		},
+		{
+			"from": "warp_dilation2_2",
+			"from_port": 0,
+			"to": "multi_warp",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur",
+			"from_port": 0,
+			"to": "multi_warp",
+			"to_port": 1
+		},
+		{
+			"from": "gradient",
+			"from_port": 0,
+			"to": "custom_uv_2",
+			"to_port": 0
+		},
+		{
+			"from": "custom_uv_2",
+			"from_port": 0,
+			"to": "blend2_3",
+			"to_port": 1
+		},
+		{
+			"from": "tones_2",
+			"from_port": 0,
+			"to": "blend2_3",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_3",
+			"from_port": 0,
+			"to": "tones_3",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp",
+			"from_port": 0,
+			"to": "multi_warp_2",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp_2",
+			"from_port": 0,
+			"to": "blend2_4",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_9",
+			"from_port": 0,
+			"to": "multi_warp_2",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_4",
+			"from_port": 0,
+			"to": "tones_6",
+			"to_port": 0
+		},
+		{
+			"from": "tones_7",
+			"from_port": 0,
+			"to": "quantize_2",
+			"to_port": 0
+		},
+		{
+			"from": "voronoi2",
+			"from_port": 0,
+			"to": "invert",
+			"to_port": 0
+		},
+		{
+			"from": "invert",
+			"from_port": 0,
+			"to": "blend2_6",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2",
+			"from_port": 0,
+			"to": "blend2_6",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_6",
+			"from_port": 0,
+			"to": "blend2_5",
+			"to_port": 1
+		},
+		{
+			"from": "fbm2_10",
+			"from_port": 0,
+			"to": "blend2_11",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_11",
+			"from_port": 0,
+			"to": "blend2_5",
+			"to_port": 0
+		},
+		{
+			"from": "directional_blur_5",
+			"from_port": 0,
+			"to": "tones_5",
+			"to_port": 0
+		},
+		{
+			"from": "voronoi2_2",
+			"from_port": 0,
+			"to": "invert_2",
+			"to_port": 0
+		},
+		{
+			"from": "invert_2",
+			"from_port": 0,
+			"to": "blend2_14",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_11",
+			"from_port": 0,
+			"to": "blend2_14",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_14",
+			"from_port": 0,
+			"to": "blend2_13",
+			"to_port": 1
+		},
+		{
+			"from": "fbm2_12",
+			"from_port": 0,
+			"to": "blend2_12",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_12",
+			"from_port": 0,
+			"to": "blend2_13",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_13",
+			"from_port": 0,
+			"to": "tones_9",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_15",
+			"from_port": 0,
+			"to": "blend2_9",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp_3",
+			"from_port": 0,
+			"to": "tones_2",
+			"to_port": 0
+		},
+		{
+			"from": "tones_11",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 0
+		},
+		{
+			"from": "tones_8",
+			"from_port": 0,
+			"to": "blend2_20",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur_5",
+			"from_port": 0,
+			"to": "tones_14",
+			"to_port": 0
+		},
+		{
+			"from": "binary_smooth_2",
+			"from_port": 0,
+			"to": "quantize_6",
+			"to_port": 0
+		},
+		{
+			"from": "tones_14",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 2
+		},
+		{
+			"from": "quantize_7",
+			"from_port": 0,
+			"to": "gaussian_blur_5",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_2",
+			"from_port": 0,
+			"to": "warp",
+			"to_port": 1
+		},
+		{
+			"from": "bricks3",
+			"from_port": 1,
+			"to": "fill_to_random_color",
+			"to_port": 0
+		},
+		{
+			"from": "fill_to_random_color",
+			"from_port": 0,
+			"to": "greyscale",
+			"to_port": 0
+		},
+		{
+			"from": "voronoi2_3",
+			"from_port": 1,
+			"to": "warp",
+			"to_port": 0
+		},
+		{
+			"from": "warp",
+			"from_port": 0,
+			"to": "tones_step",
+			"to_port": 0
+		},
+		{
+			"from": "greyscale",
+			"from_port": 0,
+			"to": "tones_step_2",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_22",
+			"from_port": 0,
+			"to": "custom_uv_5",
+			"to_port": 0
+		},
+		{
+			"from": "uniform",
+			"from_port": 0,
+			"to": "blend2_22",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_2",
+			"from_port": 0,
+			"to": "blend2_22",
+			"to_port": 2
+		},
+		{
+			"from": "tones_step",
+			"from_port": 0,
+			"to": "blend2_22",
+			"to_port": 1
+		},
+		{
+			"from": "blend2",
+			"from_port": 0,
+			"to": "normal_map2",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_18",
+			"from_port": 0,
+			"to": "blend2_24",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_16",
+			"from_port": 0,
+			"to": "hbao",
+			"to_port": 0
+		},
+		{
+			"from": "hbao",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 5
+		},
+		{
+			"from": "invert_4",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 6
+		},
+		{
+			"from": "normal_map2",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 4
+		},
+		{
+			"from": "color_noise",
+			"from_port": 0,
+			"to": "greyscale_2",
+			"to_port": 0
+		},
+		{
+			"from": "greyscale_2",
+			"from_port": 0,
+			"to": "tones_16",
+			"to_port": 0
+		},
+		{
+			"from": "tones_16",
+			"from_port": 0,
+			"to": "blend2_25",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_7",
+			"from_port": 0,
+			"to": "blend2_26",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_25",
+			"from_port": 0,
+			"to": "gaussian_blur_4",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur_4",
+			"from_port": 0,
+			"to": "tones_step_3",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_3",
+			"from_port": 0,
+			"to": "blend2_26",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_26",
+			"from_port": 0,
+			"to": "blend2_23",
+			"to_port": 0
+		},
+		{
+			"from": "uniform_2",
+			"from_port": 0,
+			"to": "tile2x2",
+			"to_port": 0
+		},
+		{
+			"from": "uniform_4",
+			"from_port": 0,
+			"to": "tile2x2",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_5",
+			"from_port": 0,
+			"to": "tile2x2",
+			"to_port": 2
+		},
+		{
+			"from": "uniform_6",
+			"from_port": 0,
+			"to": "tile2x2",
+			"to_port": 3
+		},
+		{
+			"from": "uniform_10",
+			"from_port": 0,
+			"to": "tile2x2_2",
+			"to_port": 0
+		},
+		{
+			"from": "uniform_7",
+			"from_port": 0,
+			"to": "tile2x2_2",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_8",
+			"from_port": 0,
+			"to": "tile2x2_2",
+			"to_port": 2
+		},
+		{
+			"from": "uniform_9",
+			"from_port": 0,
+			"to": "tile2x2_2",
+			"to_port": 3
+		},
+		{
+			"from": "uniform_18",
+			"from_port": 0,
+			"to": "tile2x2_4",
+			"to_port": 0
+		},
+		{
+			"from": "uniform_15",
+			"from_port": 0,
+			"to": "tile2x2_4",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_16",
+			"from_port": 0,
+			"to": "tile2x2_4",
+			"to_port": 2
+		},
+		{
+			"from": "uniform_11",
+			"from_port": 0,
+			"to": "tile2x2_3",
+			"to_port": 0
+		},
+		{
+			"from": "uniform_14",
+			"from_port": 0,
+			"to": "tile2x2_3",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_13",
+			"from_port": 0,
+			"to": "tile2x2_3",
+			"to_port": 2
+		},
+		{
+			"from": "uniform_12",
+			"from_port": 0,
+			"to": "tile2x2_3",
+			"to_port": 3
+		},
+		{
+			"from": "uniform_17",
+			"from_port": 0,
+			"to": "tile2x2_4",
+			"to_port": 3
+		},
+		{
+			"from": "tile2x2",
+			"from_port": 0,
+			"to": "tile2x2_5",
+			"to_port": 0
+		},
+		{
+			"from": "tile2x2_2",
+			"from_port": 0,
+			"to": "tile2x2_5",
+			"to_port": 1
+		},
+		{
+			"from": "tile2x2_4",
+			"from_port": 0,
+			"to": "tile2x2_5",
+			"to_port": 2
+		},
+		{
+			"from": "tile2x2_3",
+			"from_port": 0,
+			"to": "tile2x2_5",
+			"to_port": 3
+		},
+		{
+			"from": "tile2x2_5",
+			"from_port": 0,
+			"to": "custom_uv_4",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_3",
+			"from_port": 0,
+			"to": "custom_uv_4",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_3",
+			"from_port": 0,
+			"to": "custom_uv_6",
+			"to_port": 1
+		},
+		{
+			"from": "custom_uv_6",
+			"from_port": 0,
+			"to": "tones_step_4",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_4",
+			"from_port": 0,
+			"to": "blend2_30",
+			"to_port": 2
+		},
+		{
+			"from": "fbm2_13",
+			"from_port": 0,
+			"to": "colorize",
+			"to_port": 0
+		},
+		{
+			"from": "colorize",
+			"from_port": 0,
+			"to": "blend2_30",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_3",
+			"from_port": 0,
+			"to": "blend2_29",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_2",
+			"from_port": 0,
+			"to": "reroute_4",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_4",
+			"from_port": 0,
+			"to": "gaussian_blur_6",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_14",
+			"from_port": 0,
+			"to": "tones_step_5",
+			"to_port": 0
+		},
+		{
+			"from": "colorize_2",
+			"from_port": 0,
+			"to": "blend2_32",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_5",
+			"from_port": 0,
+			"to": "blend2_32",
+			"to_port": 2
+		},
+		{
+			"from": "reroute_6",
+			"from_port": 0,
+			"to": "colorize_2",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_6",
+			"from_port": 0,
+			"to": "colorize_3",
+			"to_port": 0
+		},
+		{
+			"from": "colorize_3",
+			"from_port": 0,
+			"to": "blend2_32",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_32",
+			"from_port": 0,
+			"to": "brightness_contrast",
+			"to_port": 0
+		},
+		{
+			"from": "brightness_contrast",
+			"from_port": 0,
+			"to": "blend2_31",
+			"to_port": 1
+		},
+		{
+			"from": "colorize_2",
+			"from_port": 0,
+			"to": "brightness_contrast_2",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_5",
+			"from_port": 0,
+			"to": "blend2_33",
+			"to_port": 2
+		},
+		{
+			"from": "blend2_29",
+			"from_port": 0,
+			"to": "blend2_33",
+			"to_port": 1
+		},
+		{
+			"from": "brightness_contrast_2",
+			"from_port": 0,
+			"to": "blend2_33",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_33",
+			"from_port": 0,
+			"to": "blend2_31",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_30",
+			"from_port": 0,
+			"to": "blend2_34",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_19",
+			"from_port": 0,
+			"to": "blend2_34",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_3",
+			"from_port": 0,
+			"to": "custom_uv_7",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_3",
+			"from_port": 0,
+			"to": "custom_uv_7",
+			"to_port": 1
+		},
+		{
+			"from": "custom_uv_7",
+			"from_port": 0,
+			"to": "blend2_34",
+			"to_port": 2
+		},
+		{
+			"from": "blend2_34",
+			"from_port": 0,
+			"to": "blend2_29",
+			"to_port": 1
+		},
+		{
+			"from": "custom_uv_5",
+			"from_port": 0,
+			"to": "tones_step_6",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_7",
+			"from_port": 0,
+			"to": "blend2_23",
+			"to_port": 1
+		},
+		{
+			"from": "gaussian_blur_2",
+			"from_port": 0,
+			"to": "binary_smooth_2",
+			"to_port": 0
+		},
+		{
+			"from": "gradient_2",
+			"from_port": 0,
+			"to": "warp_dilation2_3",
+			"to_port": 1
+		},
+		{
+			"from": "invert_5",
+			"from_port": 0,
+			"to": "math",
+			"to_port": 1
+		},
+		{
+			"from": "math",
+			"from_port": 0,
+			"to": "warp_dilation2_3",
+			"to_port": 0
+		},
+		{
+			"from": "voronoi2_4",
+			"from_port": 0,
+			"to": "tones_step_7",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_7",
+			"from_port": 0,
+			"to": "invert_5",
+			"to_port": 0
+		},
+		{
+			"from": "reroute",
+			"from_port": 0,
+			"to": "blend2_35",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_35",
+			"from_port": 0,
+			"to": "binary_smooth_3",
+			"to_port": 0
+		},
+		{
+			"from": "binary_smooth_3",
+			"from_port": 0,
+			"to": "blend2_36",
+			"to_port": 0
+		},
+		{
+			"from": "reroute",
+			"from_port": 0,
+			"to": "blend2_36",
+			"to_port": 1
+		},
+		{
+			"from": "warp_dilation2_3",
+			"from_port": 0,
+			"to": "blend2_35",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_36",
+			"from_port": 0,
+			"to": "bevel",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_2",
+			"from_port": 0,
+			"to": "blend2_18",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur_6",
+			"from_port": 0,
+			"to": "tones_step_8",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_8",
+			"from_port": 0,
+			"to": "blend2_31",
+			"to_port": 2
+		},
+		{
+			"from": "blend2_20",
+			"from_port": 0,
+			"to": "blend2_37",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2_7",
+			"from_port": 0,
+			"to": "blend2_37",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_37",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 1
+		},
+		{
+			"from": "tones_6",
+			"from_port": 0,
+			"to": "blend2_11",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_5",
+			"from_port": 0,
+			"to": "blend2_39",
+			"to_port": 2
+		},
+		{
+			"from": "tones_step_8",
+			"from_port": 0,
+			"to": "blend2_40",
+			"to_port": 2
+		},
+		{
+			"from": "uniform_21",
+			"from_port": 0,
+			"to": "blend2_40",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_20",
+			"from_port": 0,
+			"to": "blend2_39",
+			"to_port": 1
+		},
+		{
+			"from": "uniform_21",
+			"from_port": 0,
+			"to": "blend2_39",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_39",
+			"from_port": 0,
+			"to": "blend2_41",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_4",
+			"from_port": 0,
+			"to": "blend2_41",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_5",
+			"from_port": 0,
+			"to": "blend2_41",
+			"to_port": 2
+		},
+		{
+			"from": "blend2_41",
+			"from_port": 0,
+			"to": "blend2_42",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_42",
+			"from_port": 0,
+			"to": "blend2_40",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_5",
+			"from_port": 0,
+			"to": "blend2_42",
+			"to_port": 2
+		},
+		{
+			"from": "invert_6",
+			"from_port": 0,
+			"to": "blend2_42",
+			"to_port": 1
+		},
+		{
+			"from": "colorize_4",
+			"from_port": 0,
+			"to": "blend2_2",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_2",
+			"from_port": 0,
+			"to": "blend2_18",
+			"to_port": 2
+		},
+		{
+			"from": "bevel_2",
+			"from_port": 0,
+			"to": "blend2_44",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur_7",
+			"from_port": 0,
+			"to": "blend2_44",
+			"to_port": 1
+		},
+		{
+			"from": "quantize_2",
+			"from_port": 0,
+			"to": "blend2_43",
+			"to_port": 2
+		},
+		{
+			"from": "blend2_44",
+			"from_port": 0,
+			"to": "tones",
+			"to_port": 0
+		},
+		{
+			"from": "tones",
+			"from_port": 0,
+			"to": "blend2_43",
+			"to_port": 1
+		},
+		{
+			"from": "tones",
+			"from_port": 0,
+			"to": "dilate",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp_5",
+			"from_port": 0,
+			"to": "tones_15",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_10",
+			"from_port": 0,
+			"to": "blend2_45",
+			"to_port": 2
+		},
+		{
+			"from": "reroute_9",
+			"from_port": 0,
+			"to": "blend2_45",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_45",
+			"from_port": 0,
+			"to": "blend2_43",
+			"to_port": 0
+		},
+		{
+			"from": "dilate",
+			"from_port": 0,
+			"to": "multi_warp_5",
+			"to_port": 0
+		},
+		{
+			"from": "invert_3",
+			"from_port": 0,
+			"to": "blend2_10",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_43",
+			"from_port": 0,
+			"to": "invert_4",
+			"to_port": 0
+		},
+		{
+			"from": "custom_uv_4",
+			"from_port": 0,
+			"to": "blend2_30",
+			"to_port": 0
+		},
+		{
+			"from": "box_4",
+			"from_port": 0,
+			"to": "directional_blur",
+			"to_port": 0
+		},
+		{
+			"from": "directional_blur",
+			"from_port": 0,
+			"to": "directional_blur_5",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_2",
+			"from_port": 0,
+			"to": "blend2_20",
+			"to_port": 1
+		},
+		{
+			"from": "tones_12",
+			"from_port": 0,
+			"to": "quantize_7",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_9",
+			"from_port": 0,
+			"to": "tones_11",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_9",
+			"from_port": 0,
+			"to": "blend2_16",
+			"to_port": 0
+		},
+		{
+			"from": "tones_4",
+			"from_port": 0,
+			"to": "blend2_16",
+			"to_port": 1
+		},
+		{
+			"from": "fbm2_15",
+			"from_port": 0,
+			"to": "multi_warp_3",
+			"to_port": 1
+		},
+		{
+			"from": "fbm2_16",
+			"from_port": 0,
+			"to": "blend2_25",
+			"to_port": 1
+		},
+		{
+			"from": "fbm2_17",
+			"from_port": 0,
+			"to": "multi_warp_5",
+			"to_port": 1
+		},
+		{
+			"from": "fill_to_gradient_3",
+			"from_port": 0,
+			"to": "reroute_13",
+			"to_port": 0
+		},
+		{
+			"from": "fill_to_uv_2",
+			"from_port": 0,
+			"to": "reroute_14",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_14",
+			"from_port": 0,
+			"to": "reroute_15",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_16",
+			"from_port": 0,
+			"to": "reroute_3",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_15",
+			"from_port": 0,
+			"to": "reroute_17",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_17",
+			"from_port": 0,
+			"to": "custom_uv_5",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_17",
+			"from_port": 0,
+			"to": "reroute_18",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_18",
+			"from_port": 0,
+			"to": "custom_uv_2",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_18",
+			"from_port": 0,
+			"to": "reroute_16",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_14",
+			"from_port": 0,
+			"to": "reroute_19",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_19",
+			"from_port": 0,
+			"to": "reroute_20",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_20",
+			"from_port": 0,
+			"to": "custom_uv_3",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_13",
+			"from_port": 0,
+			"to": "reroute_21",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_21",
+			"from_port": 0,
+			"to": "reroute_22",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_22",
+			"from_port": 0,
+			"to": "gaussian_blur_7",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_22",
+			"from_port": 0,
+			"to": "reroute_8",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_8",
+			"from_port": 0,
+			"to": "reroute_23",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_23",
+			"from_port": 0,
+			"to": "blend2_18",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_24",
+			"from_port": 0,
+			"to": "blend2_9",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_10",
+			"from_port": 0,
+			"to": "colorize_4",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_2",
+			"from_port": 0,
+			"to": "reroute_11",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_11",
+			"from_port": 0,
+			"to": "blend2_15",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_7",
+			"from_port": 0,
+			"to": "reroute_12",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_12",
+			"from_port": 0,
+			"to": "reroute_25",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_26",
+			"from_port": 0,
+			"to": "blend2_29",
+			"to_port": 2
+		},
+		{
+			"from": "reroute_26",
+			"from_port": 0,
+			"to": "invert_6",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_25",
+			"from_port": 0,
+			"to": "reroute_26",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_25",
+			"from_port": 0,
+			"to": "reroute_27",
+			"to_port": 0
+		},
+		{
+			"from": "multi_warp_3",
+			"from_port": 0,
+			"to": "reroute_28",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_10",
+			"from_port": 0,
+			"to": "reroute_31",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_31",
+			"from_port": 0,
+			"to": "reroute_5",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_32",
+			"from_port": 0,
+			"to": "reroute_33",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_32",
+			"from_port": 0,
+			"to": "tones_7",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_33",
+			"from_port": 0,
+			"to": "tones_12",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_33",
+			"from_port": 0,
+			"to": "tones_4",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_34",
+			"from_port": 0,
+			"to": "reroute_35",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_35",
+			"from_port": 0,
+			"to": "blend2_7",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_34",
+			"from_port": 0,
+			"to": "custom_uv_6",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_11",
+			"from_port": 0,
+			"to": "reroute_36",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_36",
+			"from_port": 0,
+			"to": "reroute_6",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_27",
+			"from_port": 0,
+			"to": "reroute_37",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_37",
+			"from_port": 0,
+			"to": "blend2_24",
+			"to_port": 1
+		},
+		{
+			"from": "reroute_13",
+			"from_port": 0,
+			"to": "reroute_38",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_38",
+			"from_port": 0,
+			"to": "reroute_39",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_39",
+			"from_port": 0,
+			"to": "reroute_24",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_28",
+			"from_port": 0,
+			"to": "reroute_29",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_29",
+			"from_port": 0,
+			"to": "blend2_2",
+			"to_port": 1
+		},
+		{
+			"from": "blend2",
+			"from_port": 0,
+			"to": "reroute_30",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_30",
+			"from_port": 0,
+			"to": "smooth_curvature",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_31",
+			"from_port": 0,
+			"to": "blend2_17",
+			"to_port": 0
+		},
+		{
+			"from": "smooth_curvature",
+			"from_port": 0,
+			"to": "tones_10",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_2",
+			"from_port": 0,
+			"to": "reroute_40",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_40",
+			"from_port": 0,
+			"to": "bevel_2",
+			"to_port": 0
+		},
+		{
+			"from": "reroute_40",
+			"from_port": 0,
+			"to": "blend2_44",
+			"to_port": 2
+		},
+		{
+			"from": "tones_10",
+			"from_port": 0,
+			"to": "blend2_17",
+			"to_port": 1
+		},
+		{
+			"from": "tones_15",
+			"from_port": 0,
+			"to": "buffer_2",
+			"to_port": 0
+		},
+		{
+			"from": "custom_uv_3",
+			"from_port": 0,
+			"to": "buffer_7",
+			"to_port": 0
+		},
+		{
+			"from": "quantize_6",
+			"from_port": 0,
+			"to": "buffer_8",
+			"to_port": 0
+		},
+		{
+			"from": "bevel",
+			"from_port": 0,
+			"to": "buffer_9",
+			"to_port": 0
+		},
+		{
+			"from": "tones_step_6",
+			"from_port": 0,
+			"to": "buffer_10",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_10",
+			"from_port": 0,
+			"to": "reroute_7",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_7",
+			"from_port": 0,
+			"to": "invert_3",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_7",
+			"from_port": 0,
+			"to": "multi_warp_3",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_7",
+			"from_port": 0,
+			"to": "reroute_10",
+			"to_port": 0
+		},
+		{
+			"from": "tones_9",
+			"from_port": 0,
+			"to": "buffer_4",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_4",
+			"from_port": 0,
+			"to": "reroute_2",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_8",
+			"from_port": 0,
+			"to": "reroute",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_8",
+			"from_port": 0,
+			"to": "math",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_9",
+			"from_port": 0,
+			"to": "warp_dilation2_2",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_8",
+			"from_port": 0,
+			"to": "buffer_11",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_11",
+			"from_port": 0,
+			"to": "reroute_34",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_23",
+			"from_port": 0,
+			"to": "buffer_5",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_5",
+			"from_port": 0,
+			"to": "blend2_15",
+			"to_port": 0
+		},
+		{
+			"from": "tones_3",
+			"from_port": 0,
+			"to": "buffer_6",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_6",
+			"from_port": 0,
+			"to": "blend2_4",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_4",
+			"from_port": 0,
+			"to": "buffer_13",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_13",
+			"from_port": 0,
+			"to": "reroute_32",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_5",
+			"from_port": 0,
+			"to": "buffer_3",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_3",
+			"from_port": 0,
+			"to": "tones_8",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_24",
+			"from_port": 0,
+			"to": "buffer_15",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_15",
+			"from_port": 0,
+			"to": "reroute_9",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_2",
+			"from_port": 0,
+			"to": "blend2_45",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_40",
+			"from_port": 0,
+			"to": "buffer_14",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_14",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 2
+		},
+		{
+			"from": "blend2_17",
+			"from_port": 0,
+			"to": "buffer_12",
+			"to_port": 0
+		},
+		{
+			"from": "buffer_12",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 0
+		}
+	],
+	"label": "Graph",
+	"longdesc": "",
+	"name": "_Node_530",
+	"node_position": {
+		"x": 0.0,
+		"y": 0.0
+	},
+	"nodes": [
+		{
+			"export_last_target": "Blender",
+			"export_paths": {
+				"Blender": "/home/danny/3D Design/Material Maker/Bricks/Red Brick Wall - Sloppy Mortar/Red Brick Wall - Sloppy Mortar - 1.0/Red Brick Wall - Sloppy Mortar - 1.0"
+			},
+			"name": "Material",
+			"node_position": {
+				"x": 5160.0,
+				"y": -840.0
+			},
+			"parameters": {
+				"albedo_color": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"ao": 1.0,
+				"depth_scale": 0.3,
+				"emission_energy": 1.0,
+				"flags_transparent": true,
+				"metallic": 0.0,
+				"normal": 1.0,
+				"roughness": 1.0,
+				"size": 12.0,
+				"sss": 1.0
+			},
+			"seed_int": 0,
+			"type": "material"
+		},
+		{
+			"name": "bricks_uneven_3",
+			"node_position": {
+				"x": -3540.0,
+				"y": -500.0
+			},
+			"parameters": {
+				"bevel": 0.0,
+				"corner": 0.01,
+				"iterations": 16.0,
+				"min_size": 0.09,
+				"mortar": 0.059,
+				"round": 0.0,
+				"rows": 12.0
+			},
+			"seed_int": 2819795968,
+			"type": "bricks_uneven3_2"
+		},
+		{
+			"name": "fill_to_uv_2",
+			"node_position": {
+				"x": -3280.0,
+				"y": -480.0
+			},
+			"parameters": {
+				"mode": 0.0
+			},
+			"seed_int": 0,
+			"type": "fill_to_uv2"
+		},
+		{
+			"name": "custom_uv_3",
+			"node_position": {
+				"x": -1020.0,
+				"y": 300.0
+			},
+			"parameters": {
+				"inputs": 0.0,
+				"rotate": 3.2,
+				"scale": 0.08,
+				"sx": 1.05,
+				"sy": 0.97,
+				"variations": true
+			},
+			"seed_int": 0,
+			"type": "custom_uv"
+		},
+		{
+			"name": "box_4",
+			"node_position": {
+				"x": -2020.0,
+				"y": 300.0
+			},
+			"parameters": {
+				"cx": 0.5,
+				"cy": 0.5,
+				"cz": 0.5,
+				"rx": 0.0,
+				"ry": 0.0,
+				"rz": 0.0,
+				"sx": 0.47,
+				"sy": 0.47,
+				"sz": 0.25
+			},
+			"seed_int": 0,
+			"type": "box"
+		},
+		{
+			"name": "directional_blur_5",
+			"node_position": {
+				"x": -1520.0,
+				"y": 300.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 24.0,
+				"param2": 90.0,
+				"param3": 0.0
+			},
+			"seed_int": 0,
+			"type": "directional_blur"
+		},
+		{
+			"name": "fbm2_3",
+			"node_position": {
+				"x": -880.0,
+				"y": -2120.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 6.0,
+				"offset": 0.0,
+				"persistence": 0.59,
+				"scale_x": 5.0,
+				"scale_y": 7.0
+			},
+			"seed_int": 999914048,
+			"type": "fbm2"
+		},
+		{
+			"name": "multi_warp_3",
+			"node_position": {
+				"x": 100.0,
+				"y": -920.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 1.534,
+				"param2": 50.0,
+				"param3": 0.0
+			},
+			"seed_int": 0,
+			"type": "multi_warp"
+		},
+		{
+			"name": "tones_5",
+			"node_position": {
+				"x": -1260.0,
+				"y": 300.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.748368978500366,
+					"g": 0.748368978500366,
+					"r": 0.748368978500366,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.637499988079071,
+					"g": 0.637499988079071,
+					"r": 0.637499988079071,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "invert_3",
+			"node_position": {
+				"x": -1840.0,
+				"y": -220.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"name": "fbm2_4",
+			"node_position": {
+				"x": -880.0,
+				"y": -2560.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 4.0,
+				"noise": 7.0,
+				"offset": 0.37,
+				"persistence": 0.71,
+				"scale_x": 5.0,
+				"scale_y": 11.0
+			},
+			"seed_int": 273779264,
+			"type": "fbm2"
+		},
+		{
+			"name": "multi_warp_4",
+			"node_position": {
+				"x": -440.0,
+				"y": -2800.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 0.535,
+				"param2": 25.0,
+				"param3": 1.0
+			},
+			"seed_int": 0,
+			"type": "multi_warp"
+		},
+		{
+			"name": "fbm2_5",
+			"node_position": {
+				"x": -880.0,
+				"y": -2800.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 8.0,
+				"noise": 6.0,
+				"offset": 0.4,
+				"persistence": 0.51,
+				"scale_x": 7.0,
+				"scale_y": 14.0
+			},
+			"seed_int": 3956986624,
+			"type": "fbm2"
+		},
+		{
+			"generic_size": 1,
+			"name": "quantize_3",
+			"node_position": {
+				"x": -620.0,
+				"y": -2800.0
+			},
+			"parameters": {
+				"steps": 5.0
+			},
+			"seed_int": 0,
+			"type": "quantize"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_7",
+			"node_position": {
+				"x": 380.0,
+				"y": -920.0
+			},
+			"parameters": {
+				"amount1": 0.015,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_8",
+			"node_position": {
+				"x": -160.0,
+				"y": -2800.0
+			},
+			"parameters": {
+				"amount1": 1.5,
+				"blend_type1": 3.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "fbm2_6",
+			"node_position": {
+				"x": -880.0,
+				"y": -2340.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 2.0,
+				"noise": 1.0,
+				"offset": 0.4,
+				"persistence": 0.94,
+				"scale_x": 17.0,
+				"scale_y": 26.0
+			},
+			"seed_int": 3956986624,
+			"type": "fbm2"
+		},
+		{
+			"generic_size": 1,
+			"name": "quantize_4",
+			"node_position": {
+				"x": -620.0,
+				"y": -2340.0
+			},
+			"parameters": {
+				"steps": 4.0
+			},
+			"seed_int": 0,
+			"type": "quantize"
+		},
+		{
+			"name": "slope_blur",
+			"node_position": {
+				"x": -460.0,
+				"y": -2340.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 0.4
+			},
+			"seed_int": 0,
+			"type": "slope_blur"
+		},
+		{
+			"name": "fill_to_gradient_3",
+			"node_position": {
+				"x": -3360.0,
+				"y": -220.0
+			},
+			"parameters": {
+				"grad": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.0
+						},
+						{
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"pos": 1.0,
+							"r": 1.0
+						}
+					],
+					"type": "Gradient"
+				},
+				"layers": 1.0,
+				"mode": 1.0,
+				"r_offset": 0.0,
+				"r_rotate": 180.0,
+				"rotate": 0.0
+			},
+			"seed_int": 0,
+			"type": "fill_to_gradient2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_9",
+			"node_position": {
+				"x": 3520.0,
+				"y": -1320.0
+			},
+			"parameters": {
+				"amount1": 0.53,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "box_3",
+			"node_position": {
+				"x": -2380.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"cx": 0.5,
+				"cy": 0.52,
+				"cz": 0.5,
+				"rx": 0.0,
+				"ry": 0.0,
+				"rz": 0.0,
+				"sx": 1.0,
+				"sy": 0.08,
+				"sz": 0.25
+			},
+			"seed_int": 0,
+			"type": "box"
+		},
+		{
+			"name": "tiler",
+			"node_position": {
+				"x": -2100.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"fixed_offset": 0.0,
+				"inputs": 0.0,
+				"offset": 0.0,
+				"overlap": 2.0,
+				"rotate": 0.0,
+				"scale": 0.0,
+				"scale_x": 1.4,
+				"scale_y": 0.17,
+				"tx": 1.0,
+				"ty": 12.0,
+				"value": 0.0,
+				"variations": false
+			},
+			"seed_int": 99650168,
+			"type": "tiler"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_10",
+			"node_position": {
+				"x": -1700.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 11.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "quantize_5",
+			"node_position": {
+				"x": -1860.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"steps": -1.0
+			},
+			"seed_int": 0,
+			"type": "quantize"
+		},
+		{
+			"name": "gaussian_blur_2",
+			"node_position": {
+				"x": -1440.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"param0": 10.0,
+				"param1": 5.6,
+				"param2": 0.0,
+				"param3": false
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"generic_size": 1,
+			"name": "quantize_6",
+			"node_position": {
+				"x": -960.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"steps": -2.0
+			},
+			"seed_int": 0,
+			"type": "quantize"
+		},
+		{
+			"name": "fbm2_8",
+			"node_position": {
+				"x": -240.0,
+				"y": -160.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 6.0,
+				"offset": 0.61,
+				"persistence": 1.0,
+				"scale_x": 32.0,
+				"scale_y": 32.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "gaussian_blur",
+			"node_position": {
+				"x": 20.0,
+				"y": -160.0
+			},
+			"parameters": {
+				"param0": 11.0,
+				"param1": 1.1,
+				"param2": 0.0,
+				"param3": false
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"name": "warp_dilation2_2",
+			"node_position": {
+				"x": 280.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"a": 1.0,
+				"angle": -180.0,
+				"d": 0.16,
+				"param0": 1.0,
+				"s": 12.0
+			},
+			"seed_int": 0,
+			"type": "warp_dilation2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2",
+			"node_position": {
+				"x": 4280.0,
+				"y": -1320.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "reroute",
+			"node_position": {
+				"x": -1260.0,
+				"y": -480.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "multi_warp",
+			"node_position": {
+				"x": 560.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"param0": 11.0,
+				"param1": 0.588,
+				"param2": 26.0,
+				"param3": 0.0
+			},
+			"seed_int": 0,
+			"type": "multi_warp"
+		},
+		{
+			"name": "custom_uv_2",
+			"node_position": {
+				"x": 420.0,
+				"y": -1400.0
+			},
+			"parameters": {
+				"inputs": 0.0,
+				"rotate": 3.2,
+				"scale": 0.08,
+				"sx": 1.05,
+				"sy": 0.97,
+				"variations": false
+			},
+			"seed_int": 0,
+			"type": "custom_uv"
+		},
+		{
+			"name": "gradient",
+			"node_position": {
+				"x": 160.0,
+				"y": -1400.0
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.0
+						},
+						{
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"pos": 1.0,
+							"r": 1.0
+						}
+					],
+					"type": "Gradient"
+				},
+				"mirror": false,
+				"repeat": 1.0,
+				"rotate": 90.0
+			},
+			"seed_int": 0,
+			"type": "gradient"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_3",
+			"node_position": {
+				"x": 960.0,
+				"y": -1440.0
+			},
+			"parameters": {
+				"amount1": 1.39,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_2",
+			"node_position": {
+				"x": 720.0,
+				"y": -1440.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.388572007417679,
+					"g": 0.388572007417679,
+					"r": 0.388572007417679,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.158931002020836,
+					"g": 0.158931002020836,
+					"r": 0.158931002020836,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_4",
+			"node_position": {
+				"x": 1080.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"amount1": 0.63,
+				"blend_type1": 11.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_3",
+			"node_position": {
+				"x": 1240.0,
+				"y": -1440.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.584789991378784,
+					"g": 0.584789991378784,
+					"r": 0.584789991378784,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.344987988471985,
+					"g": 0.344987988471985,
+					"r": 0.344987988471985,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "multi_warp_2",
+			"node_position": {
+				"x": 820.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 0.438,
+				"param2": 15.0,
+				"param3": 2.0
+			},
+			"seed_int": 0,
+			"type": "multi_warp"
+		},
+		{
+			"name": "fbm2_9",
+			"node_position": {
+				"x": 560.0,
+				"y": -180.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 7.0,
+				"noise": 7.0,
+				"offset": 0.37,
+				"persistence": 0.47,
+				"scale_x": 17.0,
+				"scale_y": 17.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "tones_6",
+			"node_position": {
+				"x": 1400.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.612846970558167,
+					"g": 0.612846970558167,
+					"r": 0.612846970558167,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_5",
+			"node_position": {
+				"x": 2360.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"amount1": 0.23,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_7",
+			"node_position": {
+				"x": 2220.0,
+				"y": -840.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.506281018257141,
+					"g": 0.506281018257141,
+					"r": 0.506281018257141,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.259737014770508,
+					"g": 0.259737014770508,
+					"r": 0.259737014770508,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "quantize_2",
+			"node_position": {
+				"x": 2480.0,
+				"y": -840.0
+			},
+			"parameters": {
+				"steps": -1.0
+			},
+			"seed_int": 0,
+			"type": "quantize"
+		},
+		{
+			"name": "voronoi2",
+			"node_position": {
+				"x": 1700.0,
+				"y": -200.0
+			},
+			"parameters": {
+				"intensity": 0.67,
+				"randomness": 1.0,
+				"scale_x": 234.0,
+				"scale_y": 234.0,
+				"stretch_x": 1.0,
+				"stretch_y": 1.0
+			},
+			"seed_int": 3218769920,
+			"type": "voronoi2"
+		},
+		{
+			"name": "fbm2",
+			"node_position": {
+				"x": 1700.0,
+				"y": 20.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 9.0,
+				"offset": 0.62,
+				"persistence": 4.88,
+				"scale_x": 67.0,
+				"scale_y": 72.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "invert",
+			"node_position": {
+				"x": 1960.0,
+				"y": -200.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_6",
+			"node_position": {
+				"x": 2100.0,
+				"y": -200.0
+			},
+			"parameters": {
+				"amount1": 0.61,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "fbm2_10",
+			"node_position": {
+				"x": 1400.0,
+				"y": -160.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 1.0,
+				"offset": 0.14,
+				"persistence": 2.61,
+				"scale_x": 6.0,
+				"scale_y": 6.0
+			},
+			"seed_int": 2547552512,
+			"type": "fbm2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_11",
+			"node_position": {
+				"x": 1640.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"amount1": 0.51,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_8",
+			"node_position": {
+				"x": 3300.0,
+				"y": -1140.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.250243008136749,
+					"g": 0.250243008136749,
+					"r": 0.250243008136749,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.646188020706177,
+					"g": 0.646188020706177,
+					"r": 0.646188020706177,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "invert_2",
+			"node_position": {
+				"x": 780.0,
+				"y": 520.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"name": "fbm2_11",
+			"node_position": {
+				"x": 520.0,
+				"y": 740.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 9.0,
+				"offset": 0.62,
+				"persistence": 4.88,
+				"scale_x": 67.0,
+				"scale_y": 72.0
+			},
+			"seed_int": 3516727808,
+			"type": "fbm2"
+		},
+		{
+			"name": "fbm2_12",
+			"node_position": {
+				"x": 520.0,
+				"y": 980.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 1.0,
+				"offset": 0.14,
+				"persistence": 2.61,
+				"scale_x": 9.0,
+				"scale_y": 10.0
+			},
+			"seed_int": 1653829504,
+			"type": "fbm2"
+		},
+		{
+			"name": "voronoi2_2",
+			"node_position": {
+				"x": 520.0,
+				"y": 520.0
+			},
+			"parameters": {
+				"intensity": 0.67,
+				"randomness": 1.0,
+				"scale_x": 234.0,
+				"scale_y": 234.0,
+				"stretch_x": 1.0,
+				"stretch_y": 1.0
+			},
+			"seed_int": 3218769920,
+			"type": "voronoi2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_12",
+			"node_position": {
+				"x": 800.0,
+				"y": 740.0
+			},
+			"parameters": {
+				"amount1": 0.69,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_13",
+			"node_position": {
+				"x": 1220.0,
+				"y": 520.0
+			},
+			"parameters": {
+				"amount1": 0.58,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_14",
+			"node_position": {
+				"x": 920.0,
+				"y": 520.0
+			},
+			"parameters": {
+				"amount1": 0.61,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_9",
+			"node_position": {
+				"x": 1520.0,
+				"y": 520.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.464028000831604,
+					"g": 0.464028000831604,
+					"r": 0.464028000831604,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 0.449647009372711,
+					"g": 0.449647009372711,
+					"r": 0.449647009372711,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_15",
+			"node_position": {
+				"x": 3220.0,
+				"y": -1320.0
+			},
+			"parameters": {
+				"amount1": 0.54,
+				"blend_type1": 9.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "normal_map2",
+			"node_position": {
+				"x": 4580.0,
+				"y": -1320.0
+			},
+			"parameters": {
+				"buffer": 1.0,
+				"param2": 0.0,
+				"size": 12.0,
+				"strength": 1.0
+			},
+			"seed_int": 0,
+			"type": "normal_map2"
+		},
+		{
+			"name": "hbao",
+			"node_position": {
+				"x": 4440.0,
+				"y": -460.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 0.08,
+				"param2": 32.0,
+				"param3": 0.07,
+				"param4": 10.0,
+				"param5": 5.0
+			},
+			"seed_int": 0,
+			"type": "hbao"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_16",
+			"node_position": {
+				"x": 4180.0,
+				"y": -460.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 9.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"minimized": true,
+			"name": "invert_4",
+			"node_position": {
+				"x": 4580.0,
+				"y": -180.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"name": "tones_11",
+			"node_position": {
+				"x": 3920.0,
+				"y": -1320.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.5,
+					"g": 0.5,
+					"r": 0.5,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_18",
+			"node_position": {
+				"x": 3760.0,
+				"y": 360.0
+			},
+			"parameters": {
+				"amount1": 1.22,
+				"blend_type1": 4.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_20",
+			"node_position": {
+				"x": 3600.0,
+				"y": -1140.0
+			},
+			"parameters": {
+				"amount1": 0.79,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "quantize_7",
+			"node_position": {
+				"x": 3440.0,
+				"y": -780.0
+			},
+			"parameters": {
+				"steps": -1.0
+			},
+			"seed_int": 0,
+			"type": "quantize"
+		},
+		{
+			"name": "gaussian_blur_5",
+			"node_position": {
+				"x": 3600.0,
+				"y": -780.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 3.5,
+				"param2": 0.0,
+				"param3": false
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"name": "tones_14",
+			"node_position": {
+				"x": 3860.0,
+				"y": -780.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.890625,
+					"g": 0.890625,
+					"r": 0.890625,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.5,
+					"g": 0.5,
+					"r": 0.5,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.440625011920929,
+					"g": 0.440625011920929,
+					"r": 0.440625011920929,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "binary_smooth_2",
+			"node_position": {
+				"x": -1180.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"bevel": 0.28,
+				"offset": 0.61,
+				"size": 12.0,
+				"smooth": 5.0
+			},
+			"seed_int": 0,
+			"type": "binary_smooth"
+		},
+		{
+			"name": "voronoi2_3",
+			"node_position": {
+				"x": -2000.0,
+				"y": -1500.0
+			},
+			"parameters": {
+				"intensity": 0.23,
+				"randomness": 0.85,
+				"scale_x": 7.0,
+				"scale_y": 2.0,
+				"stretch_x": 1.0,
+				"stretch_y": 1.0
+			},
+			"seed_int": 3966078208,
+			"type": "voronoi2"
+		},
+		{
+			"generic_size": 1,
+			"name": "warp",
+			"node_position": {
+				"x": -1680.0,
+				"y": -1200.0
+			},
+			"parameters": {
+				"amount": 0.05,
+				"eps": 0.11,
+				"mode": 0.0
+			},
+			"seed_int": 0,
+			"type": "warp"
+		},
+		{
+			"name": "fbm2_2",
+			"node_position": {
+				"x": -2000.0,
+				"y": -1300.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 8.0,
+				"noise": 1.0,
+				"offset": 0.0,
+				"persistence": 0.5,
+				"scale_x": 8.0,
+				"scale_y": 8.0
+			},
+			"seed_int": 2105009664,
+			"type": "fbm2"
+		},
+		{
+			"name": "bricks3",
+			"node_position": {
+				"x": -2240.0,
+				"y": -1100.0
+			},
+			"parameters": {
+				"bevel": 0.05,
+				"columns": 4.0,
+				"corner": 0.3,
+				"mortar": 0.05,
+				"pattern": 0.0,
+				"repeat": 1.0,
+				"round": 0.0,
+				"row_offset": 0.0,
+				"rows": 4.0
+			},
+			"seed_int": 0,
+			"type": "bricks3"
+		},
+		{
+			"name": "fill_to_random_color",
+			"node_position": {
+				"x": -2000.0,
+				"y": -1080.0
+			},
+			"parameters": {
+				"edgecolor": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 1716107136,
+			"type": "fill_to_random_color2"
+		},
+		{
+			"name": "greyscale",
+			"node_position": {
+				"x": -1720.0,
+				"y": -1080.0
+			},
+			"parameters": {
+				"mode": 2.0
+			},
+			"seed_int": 0,
+			"type": "greyscale"
+		},
+		{
+			"name": "tones_step",
+			"node_position": {
+				"x": -1520.0,
+				"y": -1200.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.005,
+				"width": 0.0
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"name": "tones_step_2",
+			"node_position": {
+				"x": -1520.0,
+				"y": -1080.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.65,
+				"width": 0.01
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_22",
+			"node_position": {
+				"x": -1260.0,
+				"y": -1200.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "custom_uv_5",
+			"node_position": {
+				"x": -980.0,
+				"y": -1200.0
+			},
+			"parameters": {
+				"inputs": 2.0,
+				"rotate": 0.0,
+				"scale": 0.0,
+				"sx": 1.0,
+				"sy": 3.01,
+				"variations": true
+			},
+			"seed_int": 809582272,
+			"type": "custom_uv"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_23",
+			"node_position": {
+				"x": 920.0,
+				"y": -920.0
+			},
+			"parameters": {
+				"amount1": 0.46,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "uniform",
+			"node_position": {
+				"x": -1460.0,
+				"y": -1280.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_24",
+			"node_position": {
+				"x": 4020.0,
+				"y": 360.0
+			},
+			"parameters": {
+				"amount1": 0.83,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_25",
+			"node_position": {
+				"x": 2580.0,
+				"y": -2380.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 3.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "color_noise",
+			"node_position": {
+				"x": 1920.0,
+				"y": -2380.0
+			},
+			"parameters": {
+				"size": 11.0
+			},
+			"seed_int": 0,
+			"type": "color_noise"
+		},
+		{
+			"name": "greyscale_2",
+			"node_position": {
+				"x": 2180.0,
+				"y": -2380.0
+			},
+			"parameters": {
+				"mode": 4.0
+			},
+			"seed_int": 0,
+			"type": "greyscale"
+		},
+		{
+			"name": "tones_16",
+			"node_position": {
+				"x": 2340.0,
+				"y": -2400.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.350223988294601,
+					"g": 0.350223988294601,
+					"r": 0.350223988294601,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.27224400639534,
+					"g": 0.27224400639534,
+					"r": 0.27224400639534,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.200962007045746,
+					"g": 0.200962007045746,
+					"r": 0.200962007045746,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_26",
+			"node_position": {
+				"x": 660.0,
+				"y": -920.0
+			},
+			"parameters": {
+				"amount1": 0.14,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "gaussian_blur_4",
+			"node_position": {
+				"x": 2840.0,
+				"y": -2380.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 1.7,
+				"param2": 0.0,
+				"param3": false
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"name": "tones_step_3",
+			"node_position": {
+				"x": 3080.0,
+				"y": -2380.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.83,
+				"width": 0.1
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"name": "uniform_2",
+			"node_position": {
+				"x": 1120.0,
+				"y": -4080.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.400000005960464,
+					"g": 0.525489985942841,
+					"r": 0.623529016971588,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_4",
+			"node_position": {
+				"x": 1120.0,
+				"y": -4000.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.247059002518654,
+					"g": 0.352941006422043,
+					"r": 0.552941024303436,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_5",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3920.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.254902005195618,
+					"g": 0.333332985639572,
+					"r": 0.492157012224197,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_6",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3840.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.321568995714188,
+					"g": 0.447059005498886,
+					"r": 0.584313988685608,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "tile2x2",
+			"node_position": {
+				"x": 1340.0,
+				"y": -4020.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "tile2x2"
+		},
+		{
+			"name": "uniform_7",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3680.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.301961004734039,
+					"g": 0.403921991586685,
+					"r": 0.607842981815338,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_8",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3600.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.219607993960381,
+					"g": 0.317647010087967,
+					"r": 0.450980007648468,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_9",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3520.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.207843005657196,
+					"g": 0.243137001991272,
+					"r": 0.329412013292313,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_10",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3760.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.588235020637512,
+					"g": 0.729412019252777,
+					"r": 0.760783970355988,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "tile2x2_2",
+			"node_position": {
+				"x": 1340.0,
+				"y": -3700.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "tile2x2"
+		},
+		{
+			"name": "uniform_11",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3120.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.290196001529694,
+					"g": 0.364706009626389,
+					"r": 0.494118005037308,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_12",
+			"node_position": {
+				"x": 1120.0,
+				"y": -2880.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.286274999380112,
+					"g": 0.392156988382339,
+					"r": 0.580392003059387,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_13",
+			"node_position": {
+				"x": 1120.0,
+				"y": -2960.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.349020004272461,
+					"g": 0.427451014518738,
+					"r": 0.564706027507782,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_14",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3040.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.26078400015831,
+					"g": 0.370588004589081,
+					"r": 0.594117999076843,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_15",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3360.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.364706009626389,
+					"g": 0.447059005498886,
+					"r": 0.596077978610992,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_16",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3280.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.474510014057159,
+					"g": 0.545098006725311,
+					"r": 0.588235020637512,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "uniform_18",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3440.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.305882006883621,
+					"g": 0.388235002756119,
+					"r": 0.592157006263733,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "tile2x2_3",
+			"node_position": {
+				"x": 1340.0,
+				"y": -3060.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "tile2x2"
+		},
+		{
+			"name": "tile2x2_4",
+			"node_position": {
+				"x": 1340.0,
+				"y": -3380.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "tile2x2"
+		},
+		{
+			"name": "uniform_17",
+			"node_position": {
+				"x": 1120.0,
+				"y": -3200.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.278430998325348,
+					"g": 0.396077990531921,
+					"r": 0.623529016971588,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "tile2x2_5",
+			"node_position": {
+				"x": 1640.0,
+				"y": -3540.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "tile2x2"
+		},
+		{
+			"name": "custom_uv_4",
+			"node_position": {
+				"x": 2360.0,
+				"y": -2860.0
+			},
+			"parameters": {
+				"inputs": 2.0,
+				"rotate": 3.2,
+				"scale": 0.0,
+				"sx": 1.15,
+				"sy": 1.27,
+				"variations": true
+			},
+			"seed_int": 2301154304,
+			"type": "custom_uv"
+		},
+		{
+			"name": "custom_uv_6",
+			"node_position": {
+				"x": 2320.0,
+				"y": -2600.0
+			},
+			"parameters": {
+				"inputs": 2.0,
+				"rotate": 3.2,
+				"scale": 0.7,
+				"sx": 2.77,
+				"sy": 5.0,
+				"variations": true
+			},
+			"seed_int": 1698096896,
+			"type": "custom_uv"
+		},
+		{
+			"name": "reroute_3",
+			"node_position": {
+				"x": 2120.0,
+				"y": -2820.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_29",
+			"node_position": {
+				"x": 3740.0,
+				"y": -2700.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_step_4",
+			"node_position": {
+				"x": 2920.0,
+				"y": -2600.0
+			},
+			"parameters": {
+				"invert": true,
+				"value": 0.13,
+				"width": 0.87
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_30",
+			"node_position": {
+				"x": 3200.0,
+				"y": -2680.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "fbm2_13",
+			"node_position": {
+				"x": 2900.0,
+				"y": -3000.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 0.0,
+				"offset": 0.0,
+				"persistence": 0.5,
+				"scale_x": 9.0,
+				"scale_y": 9.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "colorize",
+			"node_position": {
+				"x": 3140.0,
+				"y": -3000.0
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.454901993274689,
+							"g": 0.545098006725311,
+							"pos": 0.0,
+							"r": 0.725489974021912
+						},
+						{
+							"a": 1.0,
+							"b": 0.544692993164062,
+							"g": 0.592144012451172,
+							"pos": 1.0,
+							"r": 0.636718988418579
+						}
+					],
+					"type": "Gradient"
+				}
+			},
+			"seed_int": 0,
+			"type": "colorize"
+		},
+		{
+			"name": "uniform_3",
+			"node_position": {
+				"x": 3560.0,
+				"y": -2760.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.0681300014257431,
+					"g": 0.0704139992594719,
+					"r": 0.0742190033197403,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "reroute_4",
+			"node_position": {
+				"x": 3280.0,
+				"y": -2540.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "gaussian_blur_6",
+			"node_position": {
+				"x": 3760.0,
+				"y": -2560.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 4.0,
+				"param2": 0.0,
+				"param3": false
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_31",
+			"node_position": {
+				"x": 4520.0,
+				"y": -2700.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "reroute_5",
+			"node_position": {
+				"x": 3600.0,
+				"y": -1800.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "colorize_2",
+			"node_position": {
+				"x": 4020.0,
+				"y": -2420.0
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.447647005319595,
+							"g": 0.473762989044189,
+							"pos": 0.0,
+							"r": 0.496093988418579
+						},
+						{
+							"a": 1.0,
+							"b": 0.644531011581421,
+							"g": 0.68078601360321,
+							"pos": 1.0,
+							"r": 0.6875
+						}
+					],
+					"type": "Gradient"
+				}
+			},
+			"seed_int": 0,
+			"type": "colorize"
+		},
+		{
+			"name": "fbm2_14",
+			"node_position": {
+				"x": 3740.0,
+				"y": -2200.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 1.0,
+				"offset": 0.95,
+				"persistence": 0.5,
+				"scale_x": 32.0,
+				"scale_y": 32.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "tones_step_5",
+			"node_position": {
+				"x": 4000.0,
+				"y": -2200.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.7,
+				"width": 0.17
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_32",
+			"node_position": {
+				"x": 4280.0,
+				"y": -2360.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "colorize_3",
+			"node_position": {
+				"x": 4020.0,
+				"y": -2320.0
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.335631996393204,
+							"g": 0.438062995672226,
+							"pos": 0.0,
+							"r": 0.457031011581421
+						},
+						{
+							"a": 1.0,
+							"b": 0.697387993335724,
+							"g": 0.769531011581421,
+							"pos": 0.500669,
+							"r": 0.752058982849121
+						},
+						{
+							"a": 1.0,
+							"b": 0.450980007648468,
+							"g": 0.576470971107483,
+							"pos": 1.0,
+							"r": 0.611765027046204
+						}
+					],
+					"type": "Gradient"
+				}
+			},
+			"seed_int": 0,
+			"type": "colorize"
+		},
+		{
+			"name": "reroute_6",
+			"node_position": {
+				"x": 3820.0,
+				"y": -2280.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "brightness_contrast",
+			"node_position": {
+				"x": 4560.0,
+				"y": -2360.0
+			},
+			"parameters": {
+				"brightness": 0.19,
+				"contrast": 1.5
+			},
+			"seed_int": 0,
+			"type": "brightness_contrast"
+		},
+		{
+			"name": "brightness_contrast_2",
+			"node_position": {
+				"x": 4260.0,
+				"y": -2500.0
+			},
+			"parameters": {
+				"brightness": 0.21,
+				"contrast": 1.48
+			},
+			"seed_int": 0,
+			"type": "brightness_contrast"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_33",
+			"node_position": {
+				"x": 4180.0,
+				"y": -2700.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_34",
+			"node_position": {
+				"x": 3460.0,
+				"y": -2680.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "uniform_19",
+			"node_position": {
+				"x": 3300.0,
+				"y": -2760.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.965117990970612,
+					"g": 0.969410002231598,
+					"r": 0.976562023162842,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"name": "custom_uv_7",
+			"node_position": {
+				"x": 3340.0,
+				"y": -2380.0
+			},
+			"parameters": {
+				"inputs": 2.0,
+				"rotate": 3.2,
+				"scale": 0.0,
+				"sx": 2.77,
+				"sy": 5.0,
+				"variations": true
+			},
+			"seed_int": 1698096896,
+			"type": "custom_uv"
+		},
+		{
+			"name": "tones_step_6",
+			"node_position": {
+				"x": -660.0,
+				"y": -1200.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.37,
+				"width": 0.06
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"name": "reroute_7",
+			"node_position": {
+				"x": -200.0,
+				"y": -1180.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "warp_dilation2_3",
+			"node_position": {
+				"x": -1500.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"a": 0.0,
+				"angle": 0.0,
+				"d": 0.035,
+				"param0": 1.0,
+				"s": 12.0
+			},
+			"seed_int": 0,
+			"type": "warp_dilation2"
+		},
+		{
+			"name": "gradient_2",
+			"node_position": {
+				"x": -1760.0,
+				"y": -500.0
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.0
+						},
+						{
+							"a": 1.0,
+							"b": 1.0,
+							"g": 1.0,
+							"pos": 1.0,
+							"r": 1.0
+						}
+					],
+					"type": "Gradient"
+				},
+				"mirror": false,
+				"repeat": 1.0,
+				"rotate": -90.0
+			},
+			"seed_int": 0,
+			"type": "gradient"
+		},
+		{
+			"name": "voronoi2_4",
+			"node_position": {
+				"x": -2380.0,
+				"y": -620.0
+			},
+			"parameters": {
+				"intensity": 2.47,
+				"randomness": 1.0,
+				"scale_x": 48.0,
+				"scale_y": 63.0,
+				"stretch_x": 1.0,
+				"stretch_y": 1.0
+			},
+			"seed_int": 1025509504,
+			"type": "voronoi2"
+		},
+		{
+			"name": "math",
+			"node_position": {
+				"x": -1760.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"clamp": false,
+				"default_in1": 0.0,
+				"default_in2": 0.0,
+				"op": 2.0
+			},
+			"seed_int": 0,
+			"type": "math"
+		},
+		{
+			"name": "invert_5",
+			"node_position": {
+				"x": -1900.0,
+				"y": -620.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"name": "tones_step_7",
+			"node_position": {
+				"x": -2120.0,
+				"y": -620.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.5,
+				"width": 0.1
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_35",
+			"node_position": {
+				"x": -1200.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 3.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "binary_smooth_3",
+			"node_position": {
+				"x": -940.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"bevel": 0.24,
+				"offset": 0.74,
+				"size": 12.0,
+				"smooth": 8.0
+			},
+			"seed_int": 0,
+			"type": "binary_smooth"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_36",
+			"node_position": {
+				"x": -700.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 3.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "bevel",
+			"node_position": {
+				"x": -460.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"bevel": {
+					"points": [
+						{
+							"ls": 0.0,
+							"rs": 0.134852,
+							"x": 0.0,
+							"y": 0.0
+						},
+						{
+							"ls": 0.180986,
+							"rs": 0.0,
+							"x": 1.0,
+							"y": 1.0
+						}
+					],
+					"type": "Curve"
+				},
+				"distance": 0.004,
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "bevel"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_2",
+			"node_position": {
+				"x": 3500.0,
+				"y": 360.0
+			},
+			"parameters": {
+				"amount1": 0.24,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_step_8",
+			"node_position": {
+				"x": 4040.0,
+				"y": -2560.0
+			},
+			"parameters": {
+				"invert": false,
+				"value": 0.77,
+				"width": 0.1
+			},
+			"seed_int": 0,
+			"type": "tones_step"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_37",
+			"node_position": {
+				"x": 3900.0,
+				"y": -1140.0
+			},
+			"parameters": {
+				"amount1": 0.25,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "fbm2_7",
+			"node_position": {
+				"x": 3600.0,
+				"y": -1020.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 1.0,
+				"offset": 0.0,
+				"persistence": 0.5,
+				"scale_x": 4.0,
+				"scale_y": 4.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "uniform_20",
+			"node_position": {
+				"x": 3420.0,
+				"y": -1580.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.964843988418579,
+					"g": 0.964843988418579,
+					"r": 0.964843988418579,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_39",
+			"node_position": {
+				"x": 3680.0,
+				"y": -1660.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "uniform_21",
+			"node_position": {
+				"x": 3420.0,
+				"y": -1660.0
+			},
+			"parameters": {
+				"color": {
+					"a": 1.0,
+					"b": 0.976562023162842,
+					"g": 0.976562023162842,
+					"r": 0.976562023162842,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "uniform"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_40",
+			"node_position": {
+				"x": 4500.0,
+				"y": -1660.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_41",
+			"node_position": {
+				"x": 3960.0,
+				"y": -1660.0
+			},
+			"parameters": {
+				"amount1": 0.2,
+				"blend_type1": 12.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_42",
+			"node_position": {
+				"x": 4220.0,
+				"y": -1660.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 3.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "invert_6",
+			"node_position": {
+				"x": 4040.0,
+				"y": -1540.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"name": "bevel_2",
+			"node_position": {
+				"x": 3360.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"bevel": {
+					"points": [
+						{
+							"ls": 0.0,
+							"rs": 4.0,
+							"x": 0.0,
+							"y": 0.0
+						},
+						{
+							"ls": 1.0,
+							"rs": 1.0,
+							"x": 0.29289299249649,
+							"y": 0.70710700750351
+						},
+						{
+							"ls": 0.0,
+							"rs": 0.0,
+							"x": 1.0,
+							"y": 1.0
+						}
+					],
+					"type": "Curve"
+				},
+				"distance": 0.008,
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "bevel"
+		},
+		{
+			"name": "colorize_4",
+			"node_position": {
+				"x": 3300.0,
+				"y": 360.0
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 1,
+					"points": [
+						{
+							"a": 1.0,
+							"b": 0.0,
+							"g": 0.0,
+							"pos": 0.0,
+							"r": 0.0
+						},
+						{
+							"a": 1.0,
+							"b": 0.5,
+							"g": 0.5,
+							"pos": 1.0,
+							"r": 0.5
+						}
+					],
+					"type": "Gradient"
+				}
+			},
+			"seed_int": 0,
+			"type": "colorize"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_43",
+			"node_position": {
+				"x": 4320.0,
+				"y": -180.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 9.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "reroute_9",
+			"node_position": {
+				"x": 4520.0,
+				"y": 380.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "gaussian_blur_7",
+			"node_position": {
+				"x": 3300.0,
+				"y": 700.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 24.6,
+				"param2": 0.0,
+				"param3": false
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_44",
+			"node_position": {
+				"x": 3580.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 5.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones",
+			"node_position": {
+				"x": 3860.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.303375005722046,
+					"g": 0.303375005722046,
+					"r": 0.303375005722046,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 0.818588972091675,
+					"g": 0.818588972091675,
+					"r": 0.818588972091675,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "reroute_10",
+			"node_position": {
+				"x": 3060.0,
+				"y": 320.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "multi_warp_5",
+			"node_position": {
+				"x": 4380.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param1": 2.555,
+				"param2": 50.0,
+				"param3": 1.0
+			},
+			"seed_int": 0,
+			"type": "multi_warp"
+		},
+		{
+			"name": "dilate",
+			"node_position": {
+				"x": 4140.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"param0": 10.0,
+				"param1": 0.03,
+				"param2": 0.0,
+				"param3": 0.0,
+				"param4": true
+			},
+			"seed_int": 0,
+			"type": "dilate"
+		},
+		{
+			"name": "tones_15",
+			"node_position": {
+				"x": 4640.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.5,
+					"g": 0.5,
+					"r": 0.5,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 0.508935987949371,
+					"g": 0.508935987949371,
+					"r": 0.508935987949371,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_45",
+			"node_position": {
+				"x": 4040.0,
+				"y": -180.0
+			},
+			"parameters": {
+				"amount1": 1.0,
+				"blend_type1": 0.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "directional_blur",
+			"node_position": {
+				"x": -1760.0,
+				"y": 300.0
+			},
+			"parameters": {
+				"param0": 9.0,
+				"param1": 6.8,
+				"param2": 0.0,
+				"param3": 0.0
+			},
+			"seed_int": 0,
+			"type": "directional_blur"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment",
+			"node_position": {
+				"x": -2400.0,
+				"y": -320.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1860.0,
+				"y": 420.0
+			},
+			"text": "",
+			"title": "Excess Mortar Map",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_2",
+			"node_position": {
+				"x": -3560.0,
+				"y": -520.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 481.0,
+				"y": 254.000030517578
+			},
+			"text": "",
+			"title": "Base Brick Pattern",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_3",
+			"node_position": {
+				"x": -2040.0,
+				"y": 260.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1560.0,
+				"y": 320.0
+			},
+			"text": "",
+			"title": "Base Brick Pattern, Blurred",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_4",
+			"node_position": {
+				"x": 1080.0,
+				"y": -4120.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 720.0,
+				"y": 1320.0
+			},
+			"text": "",
+			"title": "Brick Color Variety (sampled from reference image)",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_5",
+			"node_position": {
+				"x": -2400.0,
+				"y": -660.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 2400.0,
+				"y": 280.0
+			},
+			"text": "",
+			"title": "Mortar Drip, Basic Shape (distance controlled by Warp Dilation node, direction controlled by gradient)",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_6",
+			"node_position": {
+				"x": -2260.0,
+				"y": -1520.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 2040.0,
+				"y": 720.0
+			},
+			"text": "",
+			"title": "Random Cracks ",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_7",
+			"node_position": {
+				"x": 3400.0,
+				"y": -1680.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1580.0,
+				"y": 280.0
+			},
+			"text": "",
+			"title": "Roughness Map",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_8",
+			"node_position": {
+				"x": 1900.0,
+				"y": -3020.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 3600.0,
+				"y": 1080.0
+			},
+			"text": "",
+			"title": "Albedo",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_10",
+			"node_position": {
+				"x": 3280.0,
+				"y": 540.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1840.0,
+				"y": 480.0
+			},
+			"text": "",
+			"title": "Mortar Height Map",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_11",
+			"node_position": {
+				"x": 2200.0,
+				"y": -880.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 464.000244140625,
+				"y": 209.0
+			},
+			"text": "",
+			"title": "Mortar Drip Mask",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_12",
+			"node_position": {
+				"x": 3280.0,
+				"y": 340.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1220.0,
+				"y": 160.0
+			},
+			"text": "",
+			"title": "Bricks Heigh Map",
+			"type": "comment"
+		},
+		{
+			"name": "tones_12",
+			"node_position": {
+				"x": 3200.0,
+				"y": -780.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.763620972633362,
+					"g": 0.763620972633362,
+					"r": 0.763620972633362,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.422150999307632,
+					"g": 0.422150999307632,
+					"r": 0.422150999307632,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.257283002138138,
+					"g": 0.257283002138138,
+					"r": 0.257283002138138,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "tones_4",
+			"node_position": {
+				"x": 3920.0,
+				"y": -440.0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.362729012966156,
+					"g": 0.362729012966156,
+					"r": 0.362729012966156,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.125820994377136,
+					"g": 0.125820994377136,
+					"r": 0.125820994377136,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_9",
+			"node_position": {
+				"x": -260.0,
+				"y": -360.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 3100.0,
+				"y": 600.0
+			},
+			"text": "",
+			"title": "Mortar Drip, Details",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_13",
+			"node_position": {
+				"x": -900.0,
+				"y": -2820.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1260.0,
+				"y": 960.0
+			},
+			"text": "",
+			"title": "Brick Chip Layers",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_14",
+			"node_position": {
+				"x": 140.0,
+				"y": -1460.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1580.0,
+				"y": 280.0
+			},
+			"text": "",
+			"title": "Bottom of Bricks, Mask",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_15",
+			"node_position": {
+				"x": -3380.0,
+				"y": -240.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 271.000061035156,
+				"y": 235.000213623047
+			},
+			"text": "",
+			"title": "Brick Random Direction Gradients",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_16",
+			"node_position": {
+				"x": 500.0,
+				"y": 480.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1520.0,
+				"y": 740.0
+			},
+			"text": "",
+			"title": "Mortar Generic Bumps",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_17",
+			"node_position": {
+				"x": 80.0,
+				"y": -940.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1340.0,
+				"y": 420.0
+			},
+			"text": "",
+			"title": "Brick Details",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_18",
+			"node_position": {
+				"x": 4020.0,
+				"y": -200.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 683.0,
+				"y": 150.00048828125
+			},
+			"text": "",
+			"title": "Final Height Map Blending",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_19",
+			"node_position": {
+				"x": 3178.0,
+				"y": -1342.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 1584.0009765625,
+				"y": 749.000854492188
+			},
+			"text": "",
+			"title": "Normal Map blending and touch-ups",
+			"type": "comment"
+		},
+		{
+			"color": {
+				"a": 1.0,
+				"b": 0.0,
+				"g": 0.0,
+				"r": 0.0,
+				"type": "Color"
+			},
+			"name": "comment_20",
+			"node_position": {
+				"x": 3898.0,
+				"y": -482.0
+			},
+			"parameters": {},
+			"seed_int": 0,
+			"size": {
+				"x": 796.00048828125,
+				"y": 229.000122070312
+			},
+			"text": "",
+			"title": "Ambient Occlusion Map",
+			"type": "comment"
+		},
+		{
+			"name": "fbm2_15",
+			"node_position": {
+				"x": 100.0,
+				"y": -760.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 6.0,
+				"offset": 0.0,
+				"persistence": 0.59,
+				"scale_x": 5.0,
+				"scale_y": 7.0
+			},
+			"seed_int": 999914048,
+			"type": "fbm2"
+		},
+		{
+			"name": "fbm2_16",
+			"node_position": {
+				"x": 2340.0,
+				"y": -2220.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 5.0,
+				"noise": 1.0,
+				"offset": 0.14,
+				"persistence": 2.61,
+				"scale_x": 9.0,
+				"scale_y": 10.0
+			},
+			"seed_int": 1653829504,
+			"type": "fbm2"
+		},
+		{
+			"name": "fbm2_17",
+			"node_position": {
+				"x": 4060.0,
+				"y": 760.0
+			},
+			"parameters": {
+				"folds": 0.0,
+				"iterations": 7.0,
+				"noise": 7.0,
+				"offset": 0.37,
+				"persistence": 0.47,
+				"scale_x": 17.0,
+				"scale_y": 17.0
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "reroute_13",
+			"node_position": {
+				"x": -3020.0,
+				"y": -200.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_14",
+			"node_position": {
+				"x": -2840.0,
+				"y": -460.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_15",
+			"node_position": {
+				"x": -2380.0,
+				"y": -1760.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_16",
+			"node_position": {
+				"x": 1500.0,
+				"y": -1760.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_17",
+			"node_position": {
+				"x": -1140.0,
+				"y": -1760.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_18",
+			"node_position": {
+				"x": 300.0,
+				"y": -1760.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_19",
+			"node_position": {
+				"x": -2660.0,
+				"y": 200.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_20",
+			"node_position": {
+				"x": -1100.0,
+				"y": 200.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_21",
+			"node_position": {
+				"x": -2840.0,
+				"y": 1360.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_22",
+			"node_position": {
+				"x": 2900.0,
+				"y": 1360.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_8",
+			"node_position": {
+				"x": 3180.0,
+				"y": 500.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_23",
+			"node_position": {
+				"x": 3680.0,
+				"y": 500.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_24",
+			"node_position": {
+				"x": 3320.0,
+				"y": -1400.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_2",
+			"node_position": {
+				"x": 2960.0,
+				"y": 540.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_11",
+			"node_position": {
+				"x": 3020.0,
+				"y": -1640.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_12",
+			"node_position": {
+				"x": -100.0,
+				"y": -1700.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_25",
+			"node_position": {
+				"x": 2780.0,
+				"y": -1720.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_26",
+			"node_position": {
+				"x": 3440.0,
+				"y": -1720.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_27",
+			"node_position": {
+				"x": 2880.0,
+				"y": 220.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_28",
+			"node_position": {
+				"x": 486.851013183594,
+				"y": -475.040710449219
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_29",
+			"node_position": {
+				"x": 2880.0,
+				"y": -480.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_31",
+			"node_position": {
+				"x": 3100.0,
+				"y": -1800.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_32",
+			"node_position": {
+				"x": 1820.0,
+				"y": -580.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_33",
+			"node_position": {
+				"x": 3120.0,
+				"y": -540.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_34",
+			"node_position": {
+				"x": 380.0,
+				"y": -2780.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_35",
+			"node_position": {
+				"x": 120.0,
+				"y": -1040.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_36",
+			"node_position": {
+				"x": 3460.0,
+				"y": -2100.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_37",
+			"node_position": {
+				"x": 3932.78149414062,
+				"y": 216.370620727539
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_38",
+			"node_position": {
+				"x": -2460.0,
+				"y": -1820.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_39",
+			"node_position": {
+				"x": 2320.0,
+				"y": -1840.0
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "reroute_30",
+			"node_position": {
+				"x": 4579.046875,
+				"y": -2096.98706054688
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "smooth_curvature",
+			"node_position": {
+				"x": 4640.0,
+				"y": -2140.0
+			},
+			"parameters": {
+				"param0": 12.0,
+				"param2": 0.36
+			},
+			"seed_int": 0,
+			"type": "smooth_curvature"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_17",
+			"node_position": {
+				"x": 4985.962890625,
+				"y": -2457.009765625
+			},
+			"parameters": {
+				"amount1": 0.42,
+				"blend_type1": 2.0
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "tones_10",
+			"node_position": {
+				"x": 4959.8173828125,
+				"y": -2140.2021484375
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1.0,
+					"b": 0.52401602268219,
+					"g": 0.52401602268219,
+					"r": 0.52401602268219,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.447555005550385,
+					"g": 0.447555005550385,
+					"r": 0.447555005550385,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0.0,
+					"b": 0.102479003369808,
+					"g": 0.102479003369808,
+					"r": 0.102479003369808,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1.0,
+					"b": 1.0,
+					"g": 1.0,
+					"r": 1.0,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0.0,
+					"b": 0.0,
+					"g": 0.0,
+					"r": 0.0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "reroute_40",
+			"node_position": {
+				"x": 3302.41650390625,
+				"y": 514.931335449219
+			},
+			"parameters": {
+				"preview": 0.0
+			},
+			"seed_int": 0,
+			"type": "reroute"
+		},
+		{
+			"name": "buffer_2",
+			"node_position": {
+				"x": 4900.0,
+				"y": 580.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_3",
+			"node_position": {
+				"x": 2620.0,
+				"y": -340.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_4",
+			"node_position": {
+				"x": 1780.0,
+				"y": 520.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_5",
+			"node_position": {
+				"x": 1200.0,
+				"y": -920.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_6",
+			"node_position": {
+				"x": 1480.0,
+				"y": -1440.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_7",
+			"node_position": {
+				"x": -700.0,
+				"y": 300.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_8",
+			"node_position": {
+				"x": -760.0,
+				"y": -280.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_9",
+			"node_position": {
+				"x": -280.0,
+				"y": -640.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_10",
+			"node_position": {
+				"x": -440.0,
+				"y": -1200.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_11",
+			"node_position": {
+				"x": 140.0,
+				"y": -2800.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_12",
+			"node_position": {
+				"x": 5260.0,
+				"y": -2460.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_13",
+			"node_position": {
+				"x": 1580.0,
+				"y": -600.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_14",
+			"node_position": {
+				"x": 4760.0,
+				"y": -1660.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		},
+		{
+			"name": "buffer_15",
+			"node_position": {
+				"x": 4280.0,
+				"y": 360.0
+			},
+			"parameters": {
+				"size": 12.0
+			},
+			"seed_int": 0,
+			"type": "buffer",
+			"version": 1
+		}
+	],
+	"parameters": {},
+	"project_thumbnail": "UklGRnYGAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSJQCAAANoCNteyJJevXrV9HAMpNX7Q9UrMd4gGEea5ksZmYGi3n3AG12ZIzVFT0X4BmrrOXdqqiUUlooyNIJImICmFOsBzh//bn89tcvAK6K1C9SVmbLdb1uM1Y0ZXysX6yVaIx1aRmvObyDqe3OZd3edRt/+PQkGmqR5K945gZIFWIwJFLELu3cv/LMWWPifFry8D0QxFomGoxAjK2Dj374ZtIwjxtd9BN4dcwrksL6lzZvGzg/mxtu+gavDeo0msLNn+xZdX4WN7z2PXyHuo36S5fvP+L8NB1teo/QZoEuNIv7VzVMkvKibwgtFqqhubxnIHFC4id8mwWrv/STbYn/q38Y32Hhzt+8+U0NIOUV96BkqLz04VmJSHwa38jB+PWPPCtRymtuQMlSObhyUmx1GN/Iw/jOvk+tNzuwZGrZ+UPJFlI2kpY2rnEdVTZU9rqCHln3+nSRfITusfObmHwMl43XR7LuyLkVJh9Du0n2vzXbyWSTzGj8l3TIeRh/GV+WTDbJDOBYN0o2UY5Bv0fOfSius/lYCljbuBQlk2iP/YErf9hZ2Uwq+z2u4tN9nWSySA3/FVXUkysHg2YR9HO0JPLsI+uTySA1xq8QIerZD18KmkHQx9ASCObNzTd7tzDfKY4az/9N2vbJpUEXFNo/34lJE6IO9iw3gy4ktKo70JLJwa3eXzS9W4BvV9fhRkz37sj9y5d6NTWl0Pn5DtyQWb1b3fPJzXg1NaTQ0OJO3JDZvQ62bX5pPUFkjhidjh87io6YN0h688NHD7ZIFWIwJFLEWgmfv4wxJfNH9OwzK/t3LlkmGozAse+/BPWJWoPIyU9/2Hhdr3tZp81oODjWL/4AjSV1xyi2XCv6x8bSZBz5v6tKZgdWUDggvAMAAHASAJ0BKjAAMAA+hTSVR6UjIiE1WA1QoBCJYgCuVY3UfARdcyaRxO3T577TXd53/1Vem4kWW5QKBPrCDApMfIEM98b/1v7BPSP/af2Fv1dYdFHipUF/Vz9deVRtb3MTax1+WABbX/D+UmpumnKXYNMNUNx1ExhIZ7H9MkzTv6SRljQ/Q17n4xklc/vUOjniX7B7wmh0eI8Wz/CIAAD+/s2VZnEjqUrqYwKqUb+470H+fXxDYYifOJMet7M1bu9ly476pbz2Ka70WP63JSVxhYrfKozgUDGVNTQOaFLmzXylApNJSVThMcz3Gi1MGSopEV00nbzsgBKhNMQAbtWtrk+XAQUqBmYM2c6KjJOhbUQgvWmxQSoSVb1sF3wRtrn9ZNoaHF7M1JfMzo+vG7f+S0lP52UF6SaNwypDPgD1kv0qTpXbyTNvMIJlzotBuRJk6izASCcpjC3n6/6+X6MDpqefFrBJFL/VjyA7Zv/u8lr+TvyoYNna+TFFNgmRc4wxdBa/Y9frHJ1tXruC/2mn2ESNT149+WLfogWHm8WHm/Gq75zk6kcTKiSzKjSpnDmLRz+hzj4+n39RIRQmi82fRQSlPgf99eV7c+9iUxE0IG1pva724woUGhwnYpYb9eS3SJiBaRM9DLMd9erv8EWwi1VZd6URYQc9J2nNR/mTH32BQmWA1VQb1Icc7CzN5TFfxX63y9JPhLiSmK9SbmiIXCaZ+UkhNMSlPuClfFNBkoPJGHfrgLse02LnVoKda22HDluY5eqJasazZy5M9EsAicz7MuvFrcpZgAlj8zzz4vz8hETvs6GDstbNyE8mNR+EvfpUDHIyOkIUX8X8FhXRQslQcsjWF55RDNsZdQmQpatsV1EpfSaNUDdUWGgb4mBfAes5CH/M9s/KUXdVSpTL/5xINZd0PsdNMsaAktEHTt4aHE8WEjt+veWHiYRTMDZrijozhoCsiQxHSufdaydfRPLb532TryAk1EEZLPp5Z1neL1sIxn7RhQU/15wvMrUT1iXB6MJlFnpEU8XyzPonNmadYUKyFMq9iQX8mBBFPjPz8mmqjqB4AE/Kwz/lYcdGODzyaudmuZShX56h+kuH5xfoSan04tOtFxwESdlPcZhhaq1Af+ekIPuiQy48XuPbC5oEgWx/qtzPXvy9haUzvABTCUpVEQTbkqGbJny39hMd+tTcVMfM15uh3FFmL/LMpZPCMjfmSWjflp/4bp5z++pT2yogR/ByqTFENB/7dFmUVHuMKSuqQ7zwAAAA",
+	"seed_int": 0,
+	"shortdesc": "",
+	"type": "graph"
+}
