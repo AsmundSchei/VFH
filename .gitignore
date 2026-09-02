@@ -27,3 +27,7 @@ Content/Variant_Horror/Input/IMC_Horror.uasset
 Content/Variant_Horror/Lvl_Horror.umap
 Content/Variant_Horror/UI/M_FillBackground.uasset
 Content/Variant_Horror/UI/UI_Horror.uasset
+Content/VehicleTemplate/Maps/VehicleBasic.umap
+Content/VFH/Assets/Materials/PSXFilter/M_PSXFilter_Inst.uasset
+Content/VFH/Blueprints/Widgets/W_GameWidget.uasset
+Content/VFH/Blueprints/Characters/BaseCharacter.uasset
