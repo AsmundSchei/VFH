@@ -1,7 +1,8 @@
-<img width="1550" height="702" alt="image" src="https://github.com/user-attachments/assets/3a0365db-329f-4c64-b066-de0cd70262c5" />
+![Static Badge](https://img.shields.io/badge/Engine-UnrealEngine-blue) ![Static Badge](https://img.shields.io/badge/Language-Blueprints-blue) ![Static Badge](https://img.shields.io/badge/Version-5.8.2-blue)  ![Static Badge](https://img.shields.io/badge/License-MIT-blue) ![Static Badge](https://img.shields.io/badge/Contributors-2-blue) ![Static Badge](https://img.shields.io/badge/Status-Developement-blue)
+
 
 
 
 A PSX GTA style Unreal Engine community project, developed by Asmund and Zarstrum.
 
-Engine version: 5.2.8 
+
